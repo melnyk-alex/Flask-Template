@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flask & Jinja2 :: {{ page.title }}</title>
+</head>
+<body>
+    <div>
+        <form method="post" action="/login">
+            <div>
+                <label for="un">Login: </label>
+                <input id="un" name="username" type="text" />
+            </div>
+            <div>
+                <label for="pw">Password: </label>
+                <input id="pw" name="password" type="password" />
+            </div>
+            <div>
+                <button>Login</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
